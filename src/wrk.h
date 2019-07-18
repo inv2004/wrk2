@@ -27,6 +27,8 @@
 
 typedef struct {
     pthread_t thread;
+    uint64_t tindex;
+    uint64_t tcount;
     aeEventLoop *loop;
     struct addrinfo *addr;
     uint64_t connections;

@@ -11,6 +11,8 @@
 
 static struct config {
     uint64_t threads;
+    uint64_t tindex;
+    uint64_t tcount;
     uint64_t connections;
     uint64_t duration;
     uint64_t timeout;
